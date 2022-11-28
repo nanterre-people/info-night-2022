@@ -6,3 +6,13 @@ terraform.tfstate.backup
 .terraform.lock.hcl
 .terraform.tfstate.lock.info
 my_key.pem
+
+# Python part
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+*.so
+*.egg-info
+*.egg
+/env
