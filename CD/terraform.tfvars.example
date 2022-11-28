@@ -1,0 +1,6 @@
+access_key_id = "Your access key (ask Paul)"
+secret_key_id = "Your secret key (ask Paul)"
+region              = "eu-west-2"
+
+image_id          = "ami-bb490c7e" # Ubuntu 20.04-2022.03.10-0
+vm_type           = "tinav4.c8r8p2"
