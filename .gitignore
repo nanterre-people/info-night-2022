@@ -1,0 +1,8 @@
+# Terraform part
+.terraform
+terraform.tfstate
+terraform.tfvars
+terraform.tfstate.backup
+.terraform.lock.hcl
+.terraform.tfstate.lock.info
+my_key.pem

@@ -36,6 +36,17 @@ pre-commit install
 Scripts Terraform pour déployer sur une VM dans le Cloud de 3DS Outscale disponibles dans le répertoire ...
 ### Usage
 ```bash
-terraform --help
+cd CD 
+cp terraform.tfvars.example terraform.tfvars
+# Complete terraform.tfvars with your credentials
+terraform init
+# Check plan before applying
+terraform plan
+# Create volume
+terraform apply
+# Re-run plan to check that infrastructure is up-to-date
+terraform plan
+# Clean ressources
+terraform destroy
 ```
-Ensuite accéder aux services via l'adresse publique de la VM !! 
+Ensuite accéder aux services via l'adresse publique de la VM qui est affichée sur votre console après l'exécution de ```terraform apply``` !! 
