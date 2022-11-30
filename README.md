@@ -1,9 +1,12 @@
 # info-night-2022
+
 Projet de la nuit de l'info 2022 de l'équipe *Village People* de la MIAGE de Nanterre Université.
 
 ## Architecture
-Projet web avec les technos: 
-- [ ] frontend: Angular ou React 
+
+Projet web avec les technos:
+
+- [x] frontend: React 
 - [X] backend: FastAPI <3
 - [ ] base de données: MySQL, PostgreSQL ou sqlite
 
@@ -18,7 +21,11 @@ Projet web avec les technos:
 ### Git 
 - convention de nommage de branche: ____
 - passage par des PR pour merger sur main
-- CI/CD ? 
+- CI/CD ?
+
+### Extension VSCode
+- markdownlint
+- GitHub Copilot
 
 ### pre-commit
 Configuration des hooks dans .pre-commit-config.yml
