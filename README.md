@@ -6,19 +6,19 @@ Projet de la nuit de l'info 2022 de l'équipe *Village People* de la MIAGE de Na
 
 Projet web avec les technos:
 
-- [x] frontend: React 
+- [x] frontend: React
 - [X] backend: FastAPI <3
 - [ ] base de données: MySQL, PostgreSQL ou sqlite
 
 ## Défis choisis
-1. 
+1.
 2.
 3.
 4.
 5.
 
 ## Conventions
-### Git 
+### Git
 - convention de nommage de branche: ____
 - passage par des PR pour merger sur main
 - CI/CD ?
@@ -30,6 +30,7 @@ Projet web avec les technos:
 ### pre-commit
 Configuration des hooks dans .pre-commit-config.yml
 #### Installation
+
 ```bash
 cd info-night-2022
 pip install pre-commit
@@ -43,7 +44,7 @@ pre-commit install
 Scripts Terraform pour déployer sur une VM dans le Cloud de 3DS Outscale disponibles dans le répertoire ...
 ### Usage
 ```bash
-cd CD 
+cd CD
 cp terraform.tfvars.example terraform.tfvars
 # Complete terraform.tfvars with your credentials
 terraform init
@@ -56,4 +57,4 @@ terraform plan
 # Clean ressources
 terraform destroy
 ```
-Ensuite accéder aux services via l'adresse publique de la VM qui est affichée sur votre console après l'exécution de ```terraform apply``` !! 
+Ensuite accéder aux services via l'adresse publique de la VM qui est affichée sur votre console après l'exécution de ```terraform apply``` !!
