@@ -1,4 +1,4 @@
-# Terraform part
+# Terraform
 .terraform
 terraform.tfstate
 terraform.tfvars
@@ -7,7 +7,7 @@ terraform.tfstate.backup
 .terraform.tfstate.lock.info
 my_key.pem
 
-# Python part
+# Python
 *.pyc
 *.pyo
 *.pyd
